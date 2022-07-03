@@ -11,6 +11,7 @@
 	"files.insertFinalNewline": true,
 	"files.trimFinalNewlines": true,
 	"workbench.colorTheme": "Dracula",
-	"editor.minimap.enabled": false
+	"editor.minimap.enabled": false,
+	"editor.formatOnSave": true
 }
 ```
