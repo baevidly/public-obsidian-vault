@@ -90,8 +90,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -100,8 +99,8 @@
   "active": "8d6278819ee8ffd0",
   "lastOpenFiles": [
     "VSCode Settings.md",
-    "Git Settings.md",
     "Fedora 36 Workstation Setup.md",
+    "Git Settings.md",
     "Test.md"
   ]
 }

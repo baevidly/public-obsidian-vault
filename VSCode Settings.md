@@ -1,5 +1,6 @@
 ```json
 {
+	"window.titleBarStyle": "custom",
 	"security.workspace.trust.enabled": false,
 	"telemetry.telemetryLevel": "off",
 	"editor.cursorBlinking": "solid",
@@ -8,6 +9,8 @@
 	"extensions.ignoreRecommendations": true,
 	"files.trimTrailingWhitespace": true,
 	"files.insertFinalNewline": true,
-	"files.trimFinalNewlines": true
+	"files.trimFinalNewlines": true,
+	"workbench.colorTheme": "Dracula",
+	"editor.minimap.enabled": false
 }
 ```
