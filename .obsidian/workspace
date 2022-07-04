@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "VSCode Settings.md",
+            "file": "Fedora 36 Workstation Setup.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "VSCode Settings.md",
+                "file": "Fedora 36 Workstation Setup.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,7 +86,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "VSCode Settings.md"
+                "file": "Fedora 36 Workstation Setup.md"
               }
             }
           }
@@ -98,9 +98,9 @@
   },
   "active": "8d6278819ee8ffd0",
   "lastOpenFiles": [
-    "VSCode Settings.md",
     "Fedora 36 Workstation Setup.md",
     "Git Settings.md",
+    "VSCode Settings.md",
     "Test.md"
   ]
 }
