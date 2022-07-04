@@ -10,6 +10,14 @@
           "type": "empty",
           "state": {}
         }
+      },
+      {
+        "id": "3699d382af887fc3",
+        "type": "leaf",
+        "state": {
+          "type": "empty",
+          "state": {}
+        }
       }
     ],
     "direction": "vertical"
@@ -90,8 +98,9 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "b2e480669071d52e",
+  "active": "3699d382af887fc3",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
     "VSCode Settings.md",
     "Git Snippets.md",
     "Fedora 36 Workstation Setup.md",
