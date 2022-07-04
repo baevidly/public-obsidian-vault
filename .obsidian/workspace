@@ -4,15 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "8d6278819ee8ffd0",
+        "id": "b2e480669071d52e",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Fedora 36 Workstation Setup.md",
-            "mode": "source",
-            "source": false
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -69,7 +65,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fedora 36 Workstation Setup.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -85,9 +80,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Fedora 36 Workstation Setup.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -97,11 +90,11 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "8d6278819ee8ffd0",
+  "active": "b2e480669071d52e",
   "lastOpenFiles": [
-    "Fedora 36 Workstation Setup.md",
     "VSCode Settings.md",
     "Git Snippets.md",
+    "Fedora 36 Workstation Setup.md",
     "Test.md"
   ]
 }
