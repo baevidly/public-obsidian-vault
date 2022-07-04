@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Git Snippets.md",
+            "file": "Fedora 36 Workstation Setup.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git Snippets.md",
+                "file": "Fedora 36 Workstation Setup.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,7 +86,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git Snippets.md"
+                "file": "Fedora 36 Workstation Setup.md"
               }
             }
           }
@@ -99,9 +99,9 @@
   },
   "active": "8d6278819ee8ffd0",
   "lastOpenFiles": [
-    "Git Snippets.md",
-    "VSCode Settings.md",
     "Fedora 36 Workstation Setup.md",
+    "VSCode Settings.md",
+    "Git Snippets.md",
     "Test.md"
   ]
 }
