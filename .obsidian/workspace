@@ -14,14 +14,6 @@
             "source": false
           }
         }
-      },
-      {
-        "id": "0f08eace84a3dde4",
-        "type": "leaf",
-        "state": {
-          "type": "empty",
-          "state": {}
-        }
       }
     ],
     "direction": "vertical"
@@ -77,6 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Fedora 36 Workstation Setup.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -92,19 +85,23 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Fedora 36 Workstation Setup.md"
+              }
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
-  "active": "0f08eace84a3dde4",
+  "active": "8d6278819ee8ffd0",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
     "Fedora 36 Workstation Setup.md",
+    "Git Snippets.md",
+    "conflict-files-obsidian-git.md",
     "Git Settings.md",
     "VSCode Settings.md",
     "Test.md"

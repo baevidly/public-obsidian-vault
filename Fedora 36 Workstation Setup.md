@@ -69,6 +69,13 @@ sudo dnf --enablerepo=rpmfusion-nonfree-rawhide install akmod-nvidia xorg-x11-dr
 
 More info at https://rpmfusion.org/Howto/NVIDIA#Latest.2FBeta_driver.
 
+## Fix hibernation
+
+Edit configuration: `sudo nano /etc/modprobe.d/nvidia.conf`:
+```
+options nvidia NVreg_PreserveVideoMemoryAllocations=0
+```
+
 # Media Codecs
 
 ```sh
