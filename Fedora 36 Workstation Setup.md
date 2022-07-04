@@ -71,7 +71,7 @@ More info at https://rpmfusion.org/Howto/NVIDIA#Latest.2FBeta_driver.
 
 ## Fix hibernation
 
-Edit configuration: `sudo nano /etc/modprobe.d/nvidia.conf`:
+Edit configuration `sudo nano /etc/modprobe.d/nvidia.conf`:
 ```
 options nvidia NVreg_PreserveVideoMemoryAllocations=0
 ```
