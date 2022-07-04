@@ -71,12 +71,19 @@ More info at https://rpmfusion.org/Howto/NVIDIA#Latest.2FBeta_driver.
 
 # Media Codecs
 
-> *Usually not needed if you use flatpak apps.*
-
 ```sh
-sudo dnf groupupdate multimedia --setop="install_weak_deps=False" --exclude=PackageKit-gstreamer-plugin
-sudo dnf groupupdate sound-and-video
+sudo dnf install gstreamer1-plugins-{bad-\*,good-\*,base} gstreamer1-plugin-openh264 gstreamer1-libav --exclude=gstreamer1-plugins-bad-free-devel
+sudo dnf install lame\* --exclude=lame-devel
+sudo dnf group upgrade --with-optional Multimedia
 ```
+
+## Fix thumbnails
+- Install `ffmpegthumbnailer`: `sudo dnf install ffmpegthumbnailer`
+- Close `nautilus` and clear thumnails cache:
+```sh
+	nautilus -q
+	rm -r ~/.cache/thumbnails/*
+``` 
 
 # Fonts
 
@@ -191,9 +198,7 @@ From https://askubuntu.com/a/621140:
 
 # Kernel Rollback
 
-By default system saves three latest kernels and you can choose in GRUB which use to boot.
-
-- Enable menu entry saving in GRUB config: `sudo nano /etc/default/grub`
+- Enable previous menu entry saving in GRUB config: `sudo nano /etc/default/grub`
   ```conf
   GRUB_SAVEDEFAULT=true
   ```
