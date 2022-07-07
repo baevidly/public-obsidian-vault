@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Fedora 36 Workstation Setup.md",
+            "file": "Git Snippets.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fedora 36 Workstation Setup.md",
+                "file": "Git Snippets.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,7 +86,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Fedora 36 Workstation Setup.md"
+                "file": "Git Snippets.md"
               }
             }
           }
@@ -99,10 +99,10 @@
   },
   "active": "3699d382af887fc3",
   "lastOpenFiles": [
+    "Git Snippets.md",
     "Fedora 36 Workstation Setup.md",
     "conflict-files-obsidian-git.md",
     "VSCode Settings.md",
-    "Git Snippets.md",
     "Test.md"
   ]
 }
