@@ -14,6 +14,14 @@
             "source": false
           }
         }
+      },
+      {
+        "id": "1a6a00048b536357",
+        "type": "leaf",
+        "state": {
+          "type": "empty",
+          "state": {}
+        }
       }
     ],
     "direction": "vertical"
@@ -100,9 +108,9 @@
   "active": "8d6278819ee8ffd0",
   "lastOpenFiles": [
     "VSCode Settings.md",
+    "conflict-files-obsidian-git.md",
     "Fedora 36 Workstation Setup.md",
     "Git Snippets.md",
-    "conflict-files-obsidian-git.md",
     "Git Settings.md",
     "Test.md"
   ]
