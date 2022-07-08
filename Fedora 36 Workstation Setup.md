@@ -14,17 +14,16 @@ Edit configuration: `sudo nano /etc/dnf/dnf.conf`
 
 More info at https://dnf.readthedocs.io/en/latest/conf_ref.html.
 
-# RPM Fusion and RPM Sphere
+# RPM Fusion
 
-- Add free RPM Fusion and RPM Sphere repositories:
+- Add free RPM Fusion repositories:
     ```sh
     sudo dnf install https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm
     sudo dnf install https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
-    sudo dnf install https://github.com/rpmsphere/noarch/raw/master/r/rpmsphere-release-$(rpm -E %fedora)-1.noarch.rpm
     ```
 - Update AppStream metadata: `sudo dnf groupupdate core`
 
-More info at https://rpmfusion.org/Configuration and https://rpmsphere.github.io/.
+More info at https://rpmfusion.org/Configuration.
 
 # Flatpak
 
@@ -74,6 +73,11 @@ More info at https://rpmfusion.org/Howto/NVIDIA#Latest.2FBeta_driver.
 Edit configuration `sudo nano /etc/modprobe.d/nvidia.conf`:
 ```
 options nvidia NVreg_PreserveVideoMemoryAllocations=0
+```
+
+Re-enable NVIDIA services:
+```sh
+sudo systemctl reenable nvidia-suspend.service nvidia-resume.service nvidia-hibernate.service
 ```
 
 # Media Codecs
