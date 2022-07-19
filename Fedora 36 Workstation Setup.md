@@ -169,12 +169,6 @@ Useful extensions:
 - [Tiling Assistant](https://extensions.gnome.org/extension/3733/tiling-assistant/): expand GNOME's column tiling and add a Windows-snap-assist-inspired popup
 - [Tray Icons: Reloaded](https://extensions.gnome.org/extension/2890/tray-icons-reloaded/): bring back Tray Icons to top panel
 
-# Applications
-
-```
-...
-```
-
 # Maintenance
 
 - Update packages and flatpak apps:
