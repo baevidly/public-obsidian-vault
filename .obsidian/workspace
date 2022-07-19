@@ -90,14 +90,14 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
-  "active": "1a6a00048b536357",
+  "active": "61736f97ff502b9a",
   "lastOpenFiles": [
     "Fedora 36 Workstation Setup.md",
     "Git Snippets.md",

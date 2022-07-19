@@ -205,7 +205,7 @@ From https://askubuntu.com/a/621140:
     Shift_L,   Up,   Shift_L|Button4
     Shift_L,   Down, Shift_L|Button5
     ```
-- Start `imwheel` and add to `.bash_profile`: `imwheel -b 45 --kill`
+- Start `imwheel` and add to `.bash_profile`/`.zprofile`: `imwheel -b 45 --kill`
 
 # Kernel Rollback
 
@@ -258,3 +258,4 @@ More info at https://docs.fedoraproject.org/en-US/quick-docs/getting-started-wit
 # Steam Launch Options
 
 - Civilization VI: `LD_PRELOAD=/usr/lib64/libfreetype.so.6 %command%`
+- Elden Ring: `VKD3D_FEATURE_LEVEL=12_0 %command%`

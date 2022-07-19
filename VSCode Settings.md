@@ -10,8 +10,12 @@
 	"files.trimTrailingWhitespace": true,
 	"files.insertFinalNewline": true,
 	"files.trimFinalNewlines": true,
-	"workbench.colorTheme": "Dracula",
 	"editor.minimap.enabled": false,
-	"editor.formatOnSave": true
+	"editor.formatOnSave": true,
+	"cmake.configureOnOpen": true,
+	"C_Cpp.codeAnalysis.clangTidy.enabled": true,
+	"workbench.iconTheme": "material-icon-theme",
+	"workbench.colorTheme": "One Monokai",
+	"editor.fontFamily": "Fira Code",
 }
 ```
